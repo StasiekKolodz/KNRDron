@@ -9,6 +9,7 @@ setup.py
 ../../build/drone_detector/drone_detector.egg-info/top_level.txt
 ../../build/drone_detector/drone_detector.egg-info/zip-safe
 drone_detector/__init__.py
+drone_detector/detection.py
 drone_detector/detector.py
 drone_detector/image_publisher.py
 drone_detector/image_subscriber.py

@@ -1,0 +1,6 @@
+{
+  "package_name": "drone_interfaces",
+  "non_idl_tuples": [
+    "/home/stas/Dron/KNRDron/rosDron/src/drone_interfaces:msg/Detection.msg"
+  ]
+}

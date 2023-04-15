@@ -21,4 +21,5 @@
 <depend>sensor_msgs</depend>
 <depend>std_msgs</depend>  
 <depend>opencv2</depend>
+<depend>numpy</depend>
 </package>

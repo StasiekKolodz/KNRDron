@@ -1,8 +1,10 @@
 /home/stas/Dron/KNRDron/rosDron/install/drone_detector/lib/python3.10/site-packages/drone_detector/image_subscriber.py
+/home/stas/Dron/KNRDron/rosDron/install/drone_detector/lib/python3.10/site-packages/drone_detector/detection.py
 /home/stas/Dron/KNRDron/rosDron/install/drone_detector/lib/python3.10/site-packages/drone_detector/detector.py
 /home/stas/Dron/KNRDron/rosDron/install/drone_detector/lib/python3.10/site-packages/drone_detector/__init__.py
 /home/stas/Dron/KNRDron/rosDron/install/drone_detector/lib/python3.10/site-packages/drone_detector/image_publisher.py
 /home/stas/Dron/KNRDron/rosDron/install/drone_detector/lib/python3.10/site-packages/drone_detector/__pycache__/image_subscriber.cpython-310.pyc
+/home/stas/Dron/KNRDron/rosDron/install/drone_detector/lib/python3.10/site-packages/drone_detector/__pycache__/detection.cpython-310.pyc
 /home/stas/Dron/KNRDron/rosDron/install/drone_detector/lib/python3.10/site-packages/drone_detector/__pycache__/detector.cpython-310.pyc
 /home/stas/Dron/KNRDron/rosDron/install/drone_detector/lib/python3.10/site-packages/drone_detector/__pycache__/__init__.cpython-310.pyc
 /home/stas/Dron/KNRDron/rosDron/install/drone_detector/lib/python3.10/site-packages/drone_detector/__pycache__/image_publisher.cpython-310.pyc

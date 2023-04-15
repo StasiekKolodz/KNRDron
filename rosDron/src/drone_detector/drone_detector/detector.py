@@ -3,29 +3,32 @@ from rclpy.node import Node # Handles the creation of nodes
 from sensor_msgs.msg import Image # Image is the message type
 from cv_bridge import CvBridge # Package to convert between ROS and OpenCV Images
 import cv2 # OpenCV library
- import numpy as np
+import numpy as np
+from detection import Detection
 class Detector(Node):
   """
   Create an ImagePublisher class, which is a subclass of the Node class.
   """
  def __init__(self):
-    super().__init__('image_subscriber')
+    super().__init__('detector')
     self.subscription = self.create_subscription(
       Image,
       'video_frames',
       self.listener_callback,
       10)
+    self.publisher_ = self.create_publisher(Image, 'video_frames', 10)
     self.br = CvBridge()
     self.thresholds = {"brown": (np.array([]), np.array([])),
                        "beige": (np.array([]), np.array([])),
                        "golden": (np.array([]), np.array([]))}
     self.detections = []
+    self.get_logger().info('Detector node created')
+
   def listener_callback(self, frame):
-    """
-    Callback function.
-    """
+    self.get_logger().info('Receiving video frame and detecting')
+    self.detections.clear()
     # Display the message on the console
-    self.get_logger().info('Receiving video frame')
+
 
     # Convert ROS Image message to OpenCV image
     current_frame = self.br.imgmsg_to_cv2(frame)
@@ -39,7 +42,8 @@ class Detector(Node):
         # Calculate area and remove small elements
         area = cv2.contourArea(cnt)
         if area > 100:
-          x, y, w, h = cv2.boundingRect(cnt)
+            x, y, w, h = cv2.boundingRect(cnt)
+            self.detections.append(Detection(bounding_box=(x,y,w,h), color=col))
 
 
  
