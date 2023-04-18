@@ -67,6 +67,7 @@ include CMakeFiles/drone_interfaces.dir/compiler_depend.make
 include CMakeFiles/drone_interfaces.dir/progress.make
 
 CMakeFiles/drone_interfaces: /home/stas/Dron/KNRDron/rosDron/src/drone_interfaces/msg/Detection.msg
+CMakeFiles/drone_interfaces: /home/stas/Dron/KNRDron/rosDron/src/drone_interfaces/msg/DetectionsList.msg
 
 drone_interfaces: CMakeFiles/drone_interfaces
 drone_interfaces: CMakeFiles/drone_interfaces.dir/build.make

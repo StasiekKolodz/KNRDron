@@ -1,0 +1,161 @@
+[0.233s] Invoking command in '/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stas/Dron/KNRDron/rosDron/install/drone_detector:/home/stas/ros2_ws/install/turtlesim_pd_pkg:/home/stas/ros2_ws/install/my_py_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(Dron) /usr/bin/cmake --build /home/stas/Dron/KNRDron/rosDron/build/drone_interfaces -- -j8 -l8
+[0.272s] [  2%] Built target drone_interfaces__cpp
+[0.272s] [ 12%] Built target drone_interfaces__rosidl_generator_c
+[0.281s] [ 12%] Built target ament_cmake_python_copy_drone_interfaces
+[0.294s] [ 23%] Built target drone_interfaces__rosidl_typesupport_cpp
+[0.294s] [ 33%] Built target drone_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.301s] [ 43%] Built target drone_interfaces__rosidl_typesupport_introspection_cpp
+[0.305s] [ 64%] Built target drone_interfaces__rosidl_typesupport_fastrtps_c
+[0.305s] [ 64%] Built target drone_interfaces__rosidl_typesupport_c
+[0.305s] [ 74%] Built target drone_interfaces__rosidl_typesupport_introspection_c
+[0.322s] [ 74%] Built target drone_interfaces
+[0.340s] [ 76%] Built target drone_interfaces__py
+[0.358s] [ 84%] Built target drone_interfaces__rosidl_generator_py
+[0.380s] [ 89%] Built target drone_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.380s] [ 94%] Built target drone_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.384s] [100%] Built target drone_interfaces__rosidl_typesupport_c__pyext
+[0.438s] running egg_info
+[0.446s] writing drone_interfaces.egg-info/PKG-INFO
+[0.446s] writing dependency_links to drone_interfaces.egg-info/dependency_links.txt
+[0.446s] writing top-level names to drone_interfaces.egg-info/top_level.txt
+[0.470s] reading manifest file 'drone_interfaces.egg-info/SOURCES.txt'
+[0.470s] writing manifest file 'drone_interfaces.egg-info/SOURCES.txt'
+[0.492s] [100%] Built target ament_cmake_python_build_drone_interfaces_egg
+[0.503s] Invoked command in '/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stas/Dron/KNRDron/rosDron/install/drone_detector:/home/stas/ros2_ws/install/turtlesim_pd_pkg:/home/stas/ros2_ws/install/my_py_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(Dron) /usr/bin/cmake --build /home/stas/Dron/KNRDron/rosDron/build/drone_interfaces -- -j8 -l8
+[0.579s] Invoking command in '/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stas/Dron/KNRDron/rosDron/install/drone_detector:/home/stas/ros2_ws/install/turtlesim_pd_pkg:/home/stas/ros2_ws/install/my_py_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(Dron) /usr/bin/cmake --install /home/stas/Dron/KNRDron/rosDron/build/drone_interfaces
+[0.585s] -- Install configuration: ""
+[0.586s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/ament_index/resource_index/rosidl_interfaces/drone_interfaces
+[0.586s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces
+[0.586s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg
+[0.586s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.586s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detections_list.h
+[0.586s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detection.h
+[0.586s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail
+[0.587s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/detections_list__functions.c
+[0.587s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/detections_list__functions.h
+[0.587s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/detection__functions.c
+[0.587s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/detection__type_support.h
+[0.587s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/detection__struct.h
+[0.587s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/detections_list__type_support.h
+[0.587s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/detections_list__struct.h
+[0.587s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/detection__functions.h
+[0.587s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/environment/library_path.sh
+[0.588s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/environment/library_path.dsv
+[0.588s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/lib/libdrone_interfaces__rosidl_generator_c.so
+[0.588s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces
+[0.588s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg
+[0.588s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.588s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail
+[0.588s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/detection__rosidl_typesupport_fastrtps_c.h
+[0.589s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/detections_list__rosidl_typesupport_fastrtps_c.h
+[0.589s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/lib/libdrone_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.589s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces
+[0.589s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg
+[0.589s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.589s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail
+[0.589s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/detection__rosidl_typesupport_introspection_c.h
+[0.589s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/detection__type_support.c
+[0.589s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/detections_list__type_support.c
+[0.590s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/detections_list__rosidl_typesupport_introspection_c.h
+[0.590s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/lib/libdrone_interfaces__rosidl_typesupport_introspection_c.so
+[0.590s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/lib/libdrone_interfaces__rosidl_typesupport_c.so
+[0.590s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces
+[0.590s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg
+[0.590s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detection.hpp
+[0.590s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail
+[0.590s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/detection__builder.hpp
+[0.590s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/detections_list__traits.hpp
+[0.591s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/detections_list__builder.hpp
+[0.591s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/detection__traits.hpp
+[0.591s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/detections_list__struct.hpp
+[0.591s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/detection__struct.hpp
+[0.591s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detections_list.hpp
+[0.591s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces
+[0.591s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg
+[0.591s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail
+[0.591s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/dds_fastrtps
+[0.591s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/detection__rosidl_typesupport_fastrtps_cpp.hpp
+[0.591s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/detections_list__rosidl_typesupport_fastrtps_cpp.hpp
+[0.591s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.591s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/lib/libdrone_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.591s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces
+[0.591s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg
+[0.592s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail
+[0.592s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/detections_list__type_support.cpp
+[0.592s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/detection__rosidl_typesupport_introspection_cpp.hpp
+[0.592s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/detections_list__rosidl_typesupport_introspection_cpp.hpp
+[0.592s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/detection__type_support.cpp
+[0.592s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/lib/libdrone_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.592s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/lib/libdrone_interfaces__rosidl_typesupport_cpp.so
+[0.592s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/environment/pythonpath.sh
+[0.592s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/environment/pythonpath.dsv
+[0.592s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/lib/python3.10/site-packages/drone_interfaces-0.0.0-py3.10.egg-info
+[0.592s] -- Installing: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/lib/python3.10/site-packages/drone_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[0.592s] -- Installing: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/lib/python3.10/site-packages/drone_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.592s] -- Installing: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/lib/python3.10/site-packages/drone_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.592s] -- Installing: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/lib/python3.10/site-packages/drone_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[0.592s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/lib/python3.10/site-packages/drone_interfaces
+[0.592s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/lib/python3.10/site-packages/drone_interfaces/drone_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.592s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/lib/python3.10/site-packages/drone_interfaces/_drone_interfaces_s.ep.rosidl_typesupport_c.c
+[0.592s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/lib/python3.10/site-packages/drone_interfaces/_drone_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.593s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/lib/python3.10/site-packages/drone_interfaces/drone_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.593s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/lib/python3.10/site-packages/drone_interfaces/drone_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.593s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/lib/python3.10/site-packages/drone_interfaces/__init__.py
+[0.593s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/lib/python3.10/site-packages/drone_interfaces/libdrone_interfaces__rosidl_generator_py.so
+[0.593s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/lib/python3.10/site-packages/drone_interfaces/_drone_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.593s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/lib/python3.10/site-packages/drone_interfaces/msg
+[0.593s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/lib/python3.10/site-packages/drone_interfaces/msg/_detection_s.c
+[0.593s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/lib/python3.10/site-packages/drone_interfaces/msg/_detection.py
+[0.593s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/lib/python3.10/site-packages/drone_interfaces/msg/_detections_list.py
+[0.593s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/lib/python3.10/site-packages/drone_interfaces/msg/_detections_list_s.c
+[0.593s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/lib/python3.10/site-packages/drone_interfaces/msg/__init__.py
+[0.618s] Listing '/home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/lib/python3.10/site-packages/drone_interfaces'...
+[0.618s] Listing '/home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/lib/python3.10/site-packages/drone_interfaces/msg'...
+[0.622s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/lib/python3.10/site-packages/drone_interfaces/drone_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.622s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/lib/python3.10/site-packages/drone_interfaces/drone_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.622s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/lib/python3.10/site-packages/drone_interfaces/drone_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.623s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/lib/libdrone_interfaces__rosidl_generator_py.so
+[0.623s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/msg/Detection.idl
+[0.623s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/msg/DetectionsList.idl
+[0.624s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/msg/Detection.msg
+[0.624s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/msg/DetectionsList.msg
+[0.624s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/ament_index/resource_index/package_run_dependencies/drone_interfaces
+[0.624s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/ament_index/resource_index/parent_prefix_path/drone_interfaces
+[0.624s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/environment/ament_prefix_path.sh
+[0.624s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/environment/ament_prefix_path.dsv
+[0.624s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/environment/path.sh
+[0.624s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/environment/path.dsv
+[0.624s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/local_setup.bash
+[0.624s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/local_setup.sh
+[0.624s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/local_setup.zsh
+[0.624s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/local_setup.dsv
+[0.624s] -- Installing: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/package.dsv
+[0.624s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/ament_index/resource_index/packages/drone_interfaces
+[0.625s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/cmake/export_drone_interfaces__rosidl_generator_cExport.cmake
+[0.625s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/cmake/export_drone_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.625s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/cmake/export_drone_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.625s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/cmake/export_drone_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.625s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/cmake/drone_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.625s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/cmake/drone_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.625s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/cmake/drone_interfaces__rosidl_typesupport_cExport.cmake
+[0.625s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/cmake/drone_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.625s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/cmake/export_drone_interfaces__rosidl_generator_cppExport.cmake
+[0.625s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/cmake/export_drone_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.625s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/cmake/export_drone_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.625s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/cmake/drone_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.626s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/cmake/drone_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.626s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/cmake/drone_interfaces__rosidl_typesupport_cppExport.cmake
+[0.626s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/cmake/drone_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.626s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/cmake/export_drone_interfaces__rosidl_generator_pyExport.cmake
+[0.626s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/cmake/export_drone_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.626s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.626s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.626s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.626s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.626s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.626s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.627s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.627s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/cmake/drone_interfacesConfig.cmake
+[0.627s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/cmake/drone_interfacesConfig-version.cmake
+[0.627s] -- Up-to-date: /home/stas/Dron/KNRDron/rosDron/install/drone_interfaces/share/drone_interfaces/package.xml
+[0.628s] Invoked command in '/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/stas/Dron/KNRDron/rosDron/install/drone_detector:/home/stas/ros2_ws/install/turtlesim_pd_pkg:/home/stas/ros2_ws/install/my_py_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(Dron) /usr/bin/cmake --install /home/stas/Dron/KNRDron/rosDron/build/drone_interfaces

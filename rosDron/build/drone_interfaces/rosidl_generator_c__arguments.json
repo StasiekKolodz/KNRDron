@@ -3,7 +3,8 @@
   "output_dir": "/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_generator_c/drone_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_adapter/drone_interfaces:msg/Detection.idl"
+    "/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_adapter/drone_interfaces:msg/Detection.idl",
+    "/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_adapter/drone_interfaces:msg/DetectionsList.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
@@ -19,6 +20,7 @@
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
-    "/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_adapter/drone_interfaces/msg/Detection.idl"
+    "/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_adapter/drone_interfaces/msg/Detection.idl",
+    "/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_adapter/drone_interfaces/msg/DetectionsList.idl"
   ]
 }

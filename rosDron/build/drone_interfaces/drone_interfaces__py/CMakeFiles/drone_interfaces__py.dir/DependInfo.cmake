@@ -17,6 +17,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_generator_py/drone_interfaces/msg/__init__.py" "/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_generator_py/drone_interfaces/_drone_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_generator_py/drone_interfaces/msg/_detection.py" "/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_generator_py/drone_interfaces/_drone_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_generator_py/drone_interfaces/msg/_detection_s.c" "/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_generator_py/drone_interfaces/_drone_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_generator_py/drone_interfaces/msg/_detections_list.py" "/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_generator_py/drone_interfaces/_drone_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_generator_py/drone_interfaces/msg/_detections_list_s.c" "/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_generator_py/drone_interfaces/_drone_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

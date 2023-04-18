@@ -15,6 +15,10 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_generator_cpp/drone_interfaces/msg/detail/detection__builder.hpp" "/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_generator_cpp/drone_interfaces/msg/detection.hpp"
   "/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_generator_cpp/drone_interfaces/msg/detail/detection__struct.hpp" "/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_generator_cpp/drone_interfaces/msg/detection.hpp"
   "/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_generator_cpp/drone_interfaces/msg/detail/detection__traits.hpp" "/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_generator_cpp/drone_interfaces/msg/detection.hpp"
+  "/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_generator_cpp/drone_interfaces/msg/detail/detections_list__builder.hpp" "/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_generator_cpp/drone_interfaces/msg/detection.hpp"
+  "/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_generator_cpp/drone_interfaces/msg/detail/detections_list__struct.hpp" "/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_generator_cpp/drone_interfaces/msg/detection.hpp"
+  "/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_generator_cpp/drone_interfaces/msg/detail/detections_list__traits.hpp" "/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_generator_cpp/drone_interfaces/msg/detection.hpp"
+  "/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_generator_cpp/drone_interfaces/msg/detections_list.hpp" "/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_generator_cpp/drone_interfaces/msg/detection.hpp"
   )
 
 

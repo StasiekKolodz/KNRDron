@@ -70,6 +70,10 @@ CMakeFiles/drone_interfaces__cpp: rosidl_generator_cpp/drone_interfaces/msg/dete
 CMakeFiles/drone_interfaces__cpp: rosidl_generator_cpp/drone_interfaces/msg/detail/detection__builder.hpp
 CMakeFiles/drone_interfaces__cpp: rosidl_generator_cpp/drone_interfaces/msg/detail/detection__struct.hpp
 CMakeFiles/drone_interfaces__cpp: rosidl_generator_cpp/drone_interfaces/msg/detail/detection__traits.hpp
+CMakeFiles/drone_interfaces__cpp: rosidl_generator_cpp/drone_interfaces/msg/detections_list.hpp
+CMakeFiles/drone_interfaces__cpp: rosidl_generator_cpp/drone_interfaces/msg/detail/detections_list__builder.hpp
+CMakeFiles/drone_interfaces__cpp: rosidl_generator_cpp/drone_interfaces/msg/detail/detections_list__struct.hpp
+CMakeFiles/drone_interfaces__cpp: rosidl_generator_cpp/drone_interfaces/msg/detail/detections_list__traits.hpp
 
 rosidl_generator_cpp/drone_interfaces/msg/detection.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/drone_interfaces/msg/detection.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -87,6 +91,7 @@ rosidl_generator_cpp/drone_interfaces/msg/detection.hpp: /opt/ros/humble/share/r
 rosidl_generator_cpp/drone_interfaces/msg/detection.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/drone_interfaces/msg/detection.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/drone_interfaces/msg/detection.hpp: rosidl_adapter/drone_interfaces/msg/Detection.idl
+rosidl_generator_cpp/drone_interfaces/msg/detection.hpp: rosidl_adapter/drone_interfaces/msg/DetectionsList.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/home/stas/miniconda3/envs/Dron/bin/python3.10 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_generator_cpp__arguments.json
 
@@ -99,11 +104,27 @@ rosidl_generator_cpp/drone_interfaces/msg/detail/detection__struct.hpp: rosidl_g
 rosidl_generator_cpp/drone_interfaces/msg/detail/detection__traits.hpp: rosidl_generator_cpp/drone_interfaces/msg/detection.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/drone_interfaces/msg/detail/detection__traits.hpp
 
+rosidl_generator_cpp/drone_interfaces/msg/detections_list.hpp: rosidl_generator_cpp/drone_interfaces/msg/detection.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/drone_interfaces/msg/detections_list.hpp
+
+rosidl_generator_cpp/drone_interfaces/msg/detail/detections_list__builder.hpp: rosidl_generator_cpp/drone_interfaces/msg/detection.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/drone_interfaces/msg/detail/detections_list__builder.hpp
+
+rosidl_generator_cpp/drone_interfaces/msg/detail/detections_list__struct.hpp: rosidl_generator_cpp/drone_interfaces/msg/detection.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/drone_interfaces/msg/detail/detections_list__struct.hpp
+
+rosidl_generator_cpp/drone_interfaces/msg/detail/detections_list__traits.hpp: rosidl_generator_cpp/drone_interfaces/msg/detection.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/drone_interfaces/msg/detail/detections_list__traits.hpp
+
 drone_interfaces__cpp: CMakeFiles/drone_interfaces__cpp
 drone_interfaces__cpp: rosidl_generator_cpp/drone_interfaces/msg/detail/detection__builder.hpp
 drone_interfaces__cpp: rosidl_generator_cpp/drone_interfaces/msg/detail/detection__struct.hpp
 drone_interfaces__cpp: rosidl_generator_cpp/drone_interfaces/msg/detail/detection__traits.hpp
+drone_interfaces__cpp: rosidl_generator_cpp/drone_interfaces/msg/detail/detections_list__builder.hpp
+drone_interfaces__cpp: rosidl_generator_cpp/drone_interfaces/msg/detail/detections_list__struct.hpp
+drone_interfaces__cpp: rosidl_generator_cpp/drone_interfaces/msg/detail/detections_list__traits.hpp
 drone_interfaces__cpp: rosidl_generator_cpp/drone_interfaces/msg/detection.hpp
+drone_interfaces__cpp: rosidl_generator_cpp/drone_interfaces/msg/detections_list.hpp
 drone_interfaces__cpp: CMakeFiles/drone_interfaces__cpp.dir/build.make
 .PHONY : drone_interfaces__cpp
 

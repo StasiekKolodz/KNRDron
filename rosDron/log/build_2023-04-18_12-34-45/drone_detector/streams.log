@@ -1,0 +1,27 @@
+[1.157s] Invoking command in '/home/stas/Dron/KNRDron/rosDron/src/drone_detector': CONDA_PROMPT_MODIFIER=(Dron) PYTHONPATH=/home/stas/Dron/KNRDron/rosDron/build/drone_detector/prefix_override:/home/stas/Dron/KNRDron/rosDron/install/drone_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/drone_detector build --build-base /home/stas/Dron/KNRDron/rosDron/build/drone_detector/build install --record /home/stas/Dron/KNRDron/rosDron/build/drone_detector/install.log --single-version-externally-managed
+[1.352s] running egg_info
+[1.353s] writing ../../build/drone_detector/drone_detector.egg-info/PKG-INFO
+[1.353s] writing dependency_links to ../../build/drone_detector/drone_detector.egg-info/dependency_links.txt
+[1.353s] writing entry points to ../../build/drone_detector/drone_detector.egg-info/entry_points.txt
+[1.353s] writing requirements to ../../build/drone_detector/drone_detector.egg-info/requires.txt
+[1.353s] writing top-level names to ../../build/drone_detector/drone_detector.egg-info/top_level.txt
+[1.355s] reading manifest file '../../build/drone_detector/drone_detector.egg-info/SOURCES.txt'
+[1.356s] writing manifest file '../../build/drone_detector/drone_detector.egg-info/SOURCES.txt'
+[1.356s] running build
+[1.356s] running build_py
+[1.356s] copying drone_detector/image_publisher.py -> /home/stas/Dron/KNRDron/rosDron/build/drone_detector/build/lib/drone_detector
+[1.356s] running install
+[1.357s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.357s]   warnings.warn(
+[1.357s] running install_lib
+[1.358s] copying /home/stas/Dron/KNRDron/rosDron/build/drone_detector/build/lib/drone_detector/image_publisher.py -> /home/stas/Dron/KNRDron/rosDron/install/drone_detector/lib/python3.10/site-packages/drone_detector
+[1.358s] byte-compiling /home/stas/Dron/KNRDron/rosDron/install/drone_detector/lib/python3.10/site-packages/drone_detector/image_publisher.py to image_publisher.cpython-310.pyc
+[1.359s] running install_data
+[1.359s] running install_egg_info
+[1.361s] removing '/home/stas/Dron/KNRDron/rosDron/install/drone_detector/lib/python3.10/site-packages/drone_detector-0.0.0-py3.10.egg-info' (and everything under it)
+[1.361s] Copying ../../build/drone_detector/drone_detector.egg-info to /home/stas/Dron/KNRDron/rosDron/install/drone_detector/lib/python3.10/site-packages/drone_detector-0.0.0-py3.10.egg-info
+[1.362s] running install_scripts
+[1.379s] Installing image_publisher script to /home/stas/Dron/KNRDron/rosDron/install/drone_detector/lib/drone_detector
+[1.380s] Installing image_subscriber script to /home/stas/Dron/KNRDron/rosDron/install/drone_detector/lib/drone_detector
+[1.380s] writing list of installed files to '/home/stas/Dron/KNRDron/rosDron/build/drone_detector/install.log'
+[1.403s] Invoked command in '/home/stas/Dron/KNRDron/rosDron/src/drone_detector' returned '0': CONDA_PROMPT_MODIFIER=(Dron) PYTHONPATH=/home/stas/Dron/KNRDron/rosDron/build/drone_detector/prefix_override:/home/stas/Dron/KNRDron/rosDron/install/drone_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/drone_detector build --build-base /home/stas/Dron/KNRDron/rosDron/build/drone_detector/build install --record /home/stas/Dron/KNRDron/rosDron/build/drone_detector/install.log --single-version-externally-managed

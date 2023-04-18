@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/drone_interfaces/msg/__init__.py"
   "../rosidl_generator_py/drone_interfaces/msg/_detection.py"
   "../rosidl_generator_py/drone_interfaces/msg/_detection_s.c"
+  "../rosidl_generator_py/drone_interfaces/msg/_detections_list.py"
+  "../rosidl_generator_py/drone_interfaces/msg/_detections_list_s.c"
   "CMakeFiles/drone_interfaces__py"
 )
 

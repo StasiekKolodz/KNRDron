@@ -224,4 +224,7 @@ CMakeFiles/drone_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py
  /home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_generator_c/drone_interfaces/msg/detail/detection__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
- /home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_generator_c/drone_interfaces/msg/detail/detection__functions.h
+ /home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_generator_c/drone_interfaces/msg/detail/detection__functions.h \
+ /home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_generator_c/drone_interfaces/msg/detail/detections_list__type_support.h \
+ /home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_generator_c/drone_interfaces/msg/detail/detections_list__struct.h \
+ /home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_generator_c/drone_interfaces/msg/detail/detections_list__functions.h

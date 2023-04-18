@@ -1,0 +1,28 @@
+[0.602s] Invoking command in '/home/stas/Dron/KNRDron/rosDron/src/drone_detector': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/stas/Dron/KNRDron/rosDron/build/drone_detector/prefix_override:/home/stas/Dron/KNRDron/rosDron/install/drone_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/drone_detector build --build-base /home/stas/Dron/KNRDron/rosDron/build/drone_detector/build install --record /home/stas/Dron/KNRDron/rosDron/build/drone_detector/install.log --single-version-externally-managed
+[0.824s] running egg_info
+[0.824s] writing ../../build/drone_detector/drone_detector.egg-info/PKG-INFO
+[0.824s] writing dependency_links to ../../build/drone_detector/drone_detector.egg-info/dependency_links.txt
+[0.824s] writing entry points to ../../build/drone_detector/drone_detector.egg-info/entry_points.txt
+[0.825s] writing requirements to ../../build/drone_detector/drone_detector.egg-info/requires.txt
+[0.825s] writing top-level names to ../../build/drone_detector/drone_detector.egg-info/top_level.txt
+[0.826s] reading manifest file '../../build/drone_detector/drone_detector.egg-info/SOURCES.txt'
+[0.827s] writing manifest file '../../build/drone_detector/drone_detector.egg-info/SOURCES.txt'
+[0.827s] running build
+[0.827s] running build_py
+[0.827s] copying drone_detector/detector.py -> /home/stas/Dron/KNRDron/rosDron/build/drone_detector/build/lib/drone_detector
+[0.827s] running install
+[0.828s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.828s]   warnings.warn(
+[0.828s] running install_lib
+[0.829s] copying /home/stas/Dron/KNRDron/rosDron/build/drone_detector/build/lib/drone_detector/detector.py -> /home/stas/Dron/KNRDron/rosDron/install/drone_detector/lib/python3.10/site-packages/drone_detector
+[0.829s] byte-compiling /home/stas/Dron/KNRDron/rosDron/install/drone_detector/lib/python3.10/site-packages/drone_detector/detector.py to detector.cpython-310.pyc
+[0.829s] Sorry: IndentationError: unindent does not match any outer indentation level (detector.py, line 13)
+[0.829s] running install_data
+[0.830s] running install_egg_info
+[0.831s] removing '/home/stas/Dron/KNRDron/rosDron/install/drone_detector/lib/python3.10/site-packages/drone_detector-0.0.0-py3.10.egg-info' (and everything under it)
+[0.832s] Copying ../../build/drone_detector/drone_detector.egg-info to /home/stas/Dron/KNRDron/rosDron/install/drone_detector/lib/python3.10/site-packages/drone_detector-0.0.0-py3.10.egg-info
+[0.832s] running install_scripts
+[0.850s] Installing image_publisher script to /home/stas/Dron/KNRDron/rosDron/install/drone_detector/lib/drone_detector
+[0.850s] Installing image_subscriber script to /home/stas/Dron/KNRDron/rosDron/install/drone_detector/lib/drone_detector
+[0.851s] writing list of installed files to '/home/stas/Dron/KNRDron/rosDron/build/drone_detector/install.log'
+[0.874s] Invoked command in '/home/stas/Dron/KNRDron/rosDron/src/drone_detector' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/stas/Dron/KNRDron/rosDron/build/drone_detector/prefix_override:/home/stas/Dron/KNRDron/rosDron/install/drone_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/drone_detector build --build-base /home/stas/Dron/KNRDron/rosDron/build/drone_detector/build install --record /home/stas/Dron/KNRDron/rosDron/build/drone_detector/install.log --single-version-externally-managed

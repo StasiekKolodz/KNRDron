@@ -78,11 +78,18 @@ rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detection__rosidl
 rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detection__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em
 rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detection__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em
 rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detection__rosidl_typesupport_introspection_c.h: rosidl_adapter/drone_interfaces/msg/Detection.idl
+rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detection__rosidl_typesupport_introspection_c.h: rosidl_adapter/drone_interfaces/msg/DetectionsList.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
 	/home/stas/miniconda3/envs/Dron/bin/python3.10 /opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_typesupport_introspection_c__arguments.json
 
+rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detections_list__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detection__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detections_list__rosidl_typesupport_introspection_c.h
+
 rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detection__type_support.c: rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detection__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detection__type_support.c
+
+rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detections_list__type_support.c: rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detection__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detections_list__type_support.c
 
 CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detection__type_support.c.o: CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detection__type_support.c.o: rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detection__type_support.c
@@ -98,21 +105,37 @@ CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_types
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detection__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detection__type_support.c -o CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detection__type_support.c.s
 
+CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detections_list__type_support.c.o: CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detections_list__type_support.c.o: rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detections_list__type_support.c
+CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detections_list__type_support.c.o: CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detections_list__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detections_list__type_support.c.o -MF CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detections_list__type_support.c.o.d -o CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detections_list__type_support.c.o -c /home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detections_list__type_support.c
+
+CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detections_list__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detections_list__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detections_list__type_support.c > CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detections_list__type_support.c.i
+
+CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detections_list__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detections_list__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detections_list__type_support.c -o CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detections_list__type_support.c.s
+
 # Object files for target drone_interfaces__rosidl_typesupport_introspection_c
 drone_interfaces__rosidl_typesupport_introspection_c_OBJECTS = \
-"CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detection__type_support.c.o"
+"CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detection__type_support.c.o" \
+"CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detections_list__type_support.c.o"
 
 # External object files for target drone_interfaces__rosidl_typesupport_introspection_c
 drone_interfaces__rosidl_typesupport_introspection_c_EXTERNAL_OBJECTS =
 
 libdrone_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detection__type_support.c.o
+libdrone_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detections_list__type_support.c.o
 libdrone_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/build.make
 libdrone_interfaces__rosidl_typesupport_introspection_c.so: libdrone_interfaces__rosidl_generator_c.so
 libdrone_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
 libdrone_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libdrone_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librcutils.so
 libdrone_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libdrone_interfaces__rosidl_typesupport_introspection_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libdrone_interfaces__rosidl_typesupport_introspection_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -125,6 +148,8 @@ CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/clean:
 
 CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detection__rosidl_typesupport_introspection_c.h
 CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detection__type_support.c
+CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detections_list__rosidl_typesupport_introspection_c.h
+CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/detections_list__type_support.c
 	cd /home/stas/Dron/KNRDron/rosDron/build/drone_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stas/Dron/KNRDron/rosDron/src/drone_interfaces /home/stas/Dron/KNRDron/rosDron/src/drone_interfaces /home/stas/Dron/KNRDron/rosDron/build/drone_interfaces /home/stas/Dron/KNRDron/rosDron/build/drone_interfaces /home/stas/Dron/KNRDron/rosDron/build/drone_interfaces/CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/depend
 

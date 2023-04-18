@@ -34,7 +34,7 @@ class ImagePublisher(Node):
          
     # Create a VideoCapture object
     # The argument '0' gets the default webcam.
-    self.cap = cv2.VideoCapture("car_counting.mp4")
+    self.cap = cv2.VideoCapture("/home/stas/Dron/KNRDron/rosDron/install/drone_detector/lib/drone_detector/car_counting.mp4")
          
     # Used to convert between ROS and OpenCV images
     self.br = CvBridge()
@@ -56,8 +56,9 @@ class ImagePublisher(Node):
       self.publisher_.publish(self.br.cv2_to_imgmsg(frame))
  
     # Display the message on the console
-    self.get_logger().info('Publishing video frame')
-  
+      self.get_logger().info('Publishing video frame')
+
+
 def main(args=None):
   
   # Initialize the rclpy library

@@ -13,7 +13,9 @@ drone_detector/detection.py
 drone_detector/detector.py
 drone_detector/image_publisher.py
 drone_detector/image_subscriber.py
+launch/image_demo.launch.py
 resource/drone_detector
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
+video_files/car_counting.mp4

@@ -29,8 +29,6 @@ class ImageSubscriber(Node):
       'video_frames', 
       self.listener_callback, 
       10)
-    self.subscription # prevent unused variable warning
-      
     # Used to convert between ROS and OpenCV images
     self.br = CvBridge()
    

@@ -1,0 +1,11 @@
+[0.000000] (-) TimerEvent: {}
+[0.000100] (drone_detector) JobQueued: {'identifier': 'drone_detector', 'dependencies': OrderedDict()}
+[0.000154] (drone_interfaces) JobQueued: {'identifier': 'drone_interfaces', 'dependencies': OrderedDict()}
+[0.000267] (drone_detector) JobStarted: {'identifier': 'drone_detector'}
+[0.011997] (drone_interfaces) JobStarted: {'identifier': 'drone_interfaces'}
+[0.099176] (-) TimerEvent: {}
+[0.199419] (-) TimerEvent: {}
+[0.230106] (drone_detector) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 54, in build\n    data_files = get_data_files_mapping(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 40, in get_data_files_mapping\n    assert isinstance(sources, list)\nAssertionError\n'}
+[0.230623] (drone_detector) JobEnded: {'identifier': 'drone_detector', 'rc': 1}
+[0.230908] (drone_interfaces) JobEnded: {'identifier': 'drone_interfaces', 'rc': 'SIGINT'}
+[0.241133] (-) EventReactorShutdown: {}
