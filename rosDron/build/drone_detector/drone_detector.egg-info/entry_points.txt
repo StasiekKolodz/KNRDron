@@ -1,4 +1,0 @@
-[console_scripts]
-image_publisher = drone_detector.image_publisher:main
-image_subscriber = drone_detector.image_subscriber:main
-
