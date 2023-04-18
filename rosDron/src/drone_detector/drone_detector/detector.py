@@ -21,7 +21,7 @@ class Detector(Node):
             self.listener_callback,
             10)
         self.publisher = self.create_publisher(DetectionsList, 'detections', 10)
-        timer_period = 0.1
+        timer_period = 2
         self.timer = self.create_timer(timer_period, self.timer_callback)
 
         self.br = CvBridge()
@@ -51,9 +51,12 @@ class Detector(Node):
                 if area > 100:
                     x, y, w, h = cv2.boundingRect(cnt)
                     self.detections.append(Detection(bounding_box=(x, y, w, h), color=col))
-
+    #     Convert detections to ros msg
+        self.detections_to_msg()
     def timer_callback(self):
-        pass
+        self.get_logger().info('Publishing detections list')
+        self.publisher.publish(self.detections_list_msg)
+
     def detections_to_msg(self):
         detection_msg = Detection()
         self.detections_list_msg.clear()
