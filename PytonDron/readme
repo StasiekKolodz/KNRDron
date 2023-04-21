@@ -1,0 +1,36 @@
+## DEBILOODPORNA INSTRUKCJA SETUPU
+
+# ustawienia rpi
+
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install python-pip
+sudo apt-get install python-dev
+sudo apt install future
+sudo apt-get install screen python-wxgtk4.0 python-lxml
+sudo pip install pyserial
+sudo pip install dronekit
+sudo pip install dronekit-sitl -UI
+sudo pip install MAVProxy
+
+# ustawienie rpi na komunikację
+
+# raspi-config -> disable UART for console, enable for serial port hardware
+# /boot/config.txt i dodaj "dtoverlay=disable-bt"
+# jesli ttyAMA0 nie jest w /dev, enable_uart=1 w /boot/config
+
+# =============
+
+dronekit-sitl copter
+python arm_test.py --connect /dev/ttyAMAO # odpalenie skryptu do latania irl
+
+dronekit-sitl copter -h # help
+
+# przykladowe info o dronisku, moze sie przydac
+print("Vehicle attribute values:")
+print("GPS: %s" % vehicle.gps_0)
+print("Battery: %s" % vehicle.battery)
+print("Last heartbeat: %s" % vehicle.last_heartbeat)
+print("is armable?: %s" % vehicle.is_armable)
+print("System status: %s" % vehicle.system_status.state)
+print("Mode: %s" % vehicle.mode.name)
